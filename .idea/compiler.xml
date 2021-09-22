@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="p02-websocket" />
-        <module name="p03-kafka" />
+        <module name="p04-i18n" />
         <module name="p01-hello" />
+        <module name="p03-kafka" />
       </profile>
     </annotationProcessing>
   </component>
