@@ -10,6 +10,7 @@
     <modules>
         <module>p01-hello</module>
         <module>p02-websocket</module>
+        <module>p03-kafka</module>
     </modules>
     <packaging>pom</packaging>
 
