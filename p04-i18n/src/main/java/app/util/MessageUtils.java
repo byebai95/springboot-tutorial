@@ -1,6 +1,5 @@
 package app.util;
 
-import app.manager.CommonParamFilter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
@@ -63,7 +62,7 @@ public class MessageUtils {
      * @return
      */
     public static String getMsg(String key) {
-        return getMsg(key, null, CommonParamFilter.LOCALE_LOCAL.get());
+        return getMsg(key, null, LocaleContextHolder.getLocale());
     }
 
 }
