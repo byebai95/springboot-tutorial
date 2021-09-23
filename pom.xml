@@ -15,6 +15,7 @@
         <module>p05-filter-interceptor</module>
         <module>p06-schedule</module>
         <module>p07-redirect</module>
+        <module>p08-aop</module>
     </modules>
     <packaging>pom</packaging>
 

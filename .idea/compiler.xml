@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="p05-filter-interceptor" />
+        <module name="p08-aop" />
         <module name="p04-i18n" />
         <module name="p07-redirect" />
         <module name="p02-websocket" />
