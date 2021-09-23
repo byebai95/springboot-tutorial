@@ -12,6 +12,7 @@
         <module>p02-websocket</module>
         <module>p03-kafka</module>
         <module>p04-i18n</module>
+        <module>p05-filter-interceptor</module>
     </modules>
     <packaging>pom</packaging>
 
