@@ -13,6 +13,8 @@
         <module>p03-kafka</module>
         <module>p04-i18n</module>
         <module>p05-filter-interceptor</module>
+        <module>p06-schedule</module>
+        <module>p07-redirect</module>
     </modules>
     <packaging>pom</packaging>
 
