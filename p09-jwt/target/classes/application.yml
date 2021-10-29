@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+swagger:
+  title: "JWT Token 验证项目"
+  version: "1.0.0"
+  basePackage: "app.controller"
+
+spring:
+  redis:
+    host: localhost
+    password:
+    database: 0
