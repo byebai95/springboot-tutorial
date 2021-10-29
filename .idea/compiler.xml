@@ -7,15 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="p05-filter-interceptor" />
         <module name="p08-aop" />
+        <module name="p05-filter-interceptor" />
         <module name="p04-i18n" />
         <module name="p07-redirect" />
+        <module name="p09-jwt" />
         <module name="p02-websocket" />
         <module name="p01-hello" />
         <module name="p06-schedule" />
         <module name="p03-kafka" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="p01-hello" target="8" />
+      <module name="p02-websocket" target="8" />
+      <module name="p03-kafka" target="8" />
+      <module name="p04-i18n" target="8" />
+      <module name="p05-filter-interceptor" target="8" />
+      <module name="p06-schedule" target="8" />
+      <module name="p07-redirect" target="8" />
+      <module name="p08-aop" target="8" />
+      <module name="p09-jwt" target="8" />
+      <module name="springboot-tutorial" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -16,6 +16,7 @@
         <module>p06-schedule</module>
         <module>p07-redirect</module>
         <module>p08-aop</module>
+        <module>p09-jwt</module>
     </modules>
     <packaging>pom</packaging>
 
