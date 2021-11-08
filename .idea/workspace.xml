@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="p-09 更新">
-      <change afterPath="$PROJECT_DIR$/readme.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p02-websocket/src/main/java/app/websocket/model/MessageVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p02-websocket/src/main/java/app/websocket/server/WebServerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/src/main/java/app/websocket/server/WebServerEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p02-websocket/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p02-websocket/target/classes/app/websocket/config/ServerEncoderConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/target/classes/app/websocket/config/ServerEncoderConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p02-websocket/target/classes/app/websocket/server/WebServerEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/target/classes/app/websocket/server/WebServerEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p02-websocket/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +83,9 @@
       <recent name="D:\work\springboot-tutorial\p02-websocket\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager">
     <configuration name="AppRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="p08-aop" />
+      <module name="p02-websocket" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.*" />
@@ -92,22 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="p09-jwt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="app.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Spring Boot.AppRunner" />
       </list>
     </recent_temporary>
@@ -123,7 +114,9 @@
       <workItem from="1632295775151" duration="22187000" />
       <workItem from="1633741801016" duration="647000" />
       <workItem from="1635471679224" duration="7658000" />
-      <workItem from="1635483023981" duration="3119000" />
+      <workItem from="1635483023981" duration="3174000" />
+      <workItem from="1635495481015" duration="614000" />
+      <workItem from="1636336583084" duration="4049000" />
     </task>
     <task id="LOCAL-00001" summary="add-websocket">
       <created>1632300729464</created>
@@ -188,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635487912560</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="p-09 更新">
+      <created>1635488424628</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635488424628</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
