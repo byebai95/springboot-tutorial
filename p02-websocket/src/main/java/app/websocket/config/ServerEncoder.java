@@ -8,7 +8,7 @@ import javax.websocket.EndpointConfig;
 /**
  * Object 对象即为 websocket 传输的信息模型，可修改为自定义
  */
-public class ServerEncoderConfig implements Encoder.Text<Object>{
+public class ServerEncoder implements Encoder.Text<Object>{
 
     @Override
     public String encode(Object messageVO) {

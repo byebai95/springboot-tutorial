@@ -1,6 +1,7 @@
 package app.websocket.server;
 
-import app.websocket.config.ServerEncoderConfig;
+import app.websocket.config.CustomConfigurator;
+import app.websocket.config.ServerEncoder;
 import app.websocket.model.MessageVO;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
@@ -12,9 +13,8 @@ import javax.websocket.server.ServerEndpoint;
 import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.CopyOnWriteArraySet;
 
-@ServerEndpoint(value = "/socketServer/{userId}", encoders = {ServerEncoderConfig.class})
+@ServerEndpoint(value = "/socketServer/{userId}", encoders = {ServerEncoder.class} ,configurator = CustomConfigurator.class)
 @Slf4j
 @Data
 @Component
