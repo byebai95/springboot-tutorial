@@ -9,9 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="p08-aop" />
         <module name="p05-filter-interceptor" />
+        <module name="p11-docker" />
         <module name="p04-i18n" />
         <module name="p07-redirect" />
         <module name="p09-jwt" />
+        <module name="p10-netty" />
         <module name="p02-websocket" />
         <module name="p01-hello" />
         <module name="p06-schedule" />
@@ -28,7 +30,24 @@
       <module name="p07-redirect" target="8" />
       <module name="p08-aop" target="8" />
       <module name="p09-jwt" target="8" />
+      <module name="p10-netty" target="8" />
+      <module name="p11-docker" target="8" />
       <module name="springboot-tutorial" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="p01-hello" options="-parameters" />
+      <module name="p02-websocket" options="-parameters" />
+      <module name="p03-kafka" options="-parameters" />
+      <module name="p04-i18n" options="-parameters" />
+      <module name="p05-filter-interceptor" options="-parameters" />
+      <module name="p06-schedule" options="-parameters" />
+      <module name="p07-redirect" options="-parameters" />
+      <module name="p08-aop" options="-parameters" />
+      <module name="p09-jwt" options="-parameters" />
+      <module name="p10-netty" options="-parameters" />
+      <module name="p11-docker" options="-parameters" />
+    </option>
   </component>
 </project>

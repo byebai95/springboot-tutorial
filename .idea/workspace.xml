@@ -4,14 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="更新 websocket">
-      <change afterPath="$PROJECT_DIR$/p02-websocket/src/main/java/app/websocket/config/CustomConfigurator.java" afterDir="false" />
+    <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="websocket 同源检测">
+      <change afterPath="$PROJECT_DIR$/p10-netty/p10-netty.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p10-netty/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p10-netty/src/main/java/app/AppRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p10-netty/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p11-docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p11-docker/p11-docker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p11-docker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p11-docker/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p11-docker/src/main/java/app/DockerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p11-docker/src/main/java/app/controller/WebController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p11-docker/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_33_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_33_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_33_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_33_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_33_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_33_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_34_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p02-websocket/src/main/java/app/websocket/config/ServerEncoderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/src/main/java/app/websocket/config/ServerEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p02-websocket/src/main/java/app/websocket/server/WebServerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/src/main/java/app/websocket/server/WebServerEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p02-websocket/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p01-hello/p01-hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p01-hello/p01-hello.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p02-websocket/p02-websocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/p02-websocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p02-websocket/target/classes/app/AppRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/target/classes/app/AppRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p02-websocket/target/classes/app/websocket/config/ServerEncoderConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/p02-websocket/target/classes/app/websocket/server/WebServerEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/target/classes/app/websocket/server/WebServerEndpoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p02-websocket/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/p02-websocket/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p03-kafka/p03-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p03-kafka/p03-kafka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p03-kafka/target/classes/app/AppRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/p03-kafka/target/classes/app/AppRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p03-kafka/target/classes/app/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/p03-kafka/target/classes/app/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p03-kafka/target/classes/app/kafka/KafkaConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/p03-kafka/target/classes/app/kafka/KafkaConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p03-kafka/target/classes/app/kafka/KafkaProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/p03-kafka/target/classes/app/kafka/KafkaProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p04-i18n/p04-i18n.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p04-i18n/p04-i18n.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p04-i18n/target/classes/app/AppRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/p04-i18n/target/classes/app/AppRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p04-i18n/target/classes/app/manager/LangLocaleResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/p04-i18n/target/classes/app/manager/LangLocaleResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p04-i18n/target/classes/app/util/MessageUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/p04-i18n/target/classes/app/util/MessageUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p05-filter-interceptor/p05-filter-interceptor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p05-filter-interceptor/p05-filter-interceptor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/AppRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/AppRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/config/FilterConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/config/FilterConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/manager/ParamFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/manager/ParamFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/manager/ParamInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/p05-filter-interceptor/target/classes/app/manager/ParamInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p06-schedule/p06-schedule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p06-schedule/p06-schedule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p06-schedule/target/classes/app/AppRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/p06-schedule/target/classes/app/AppRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p07-redirect/p07-redirect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p07-redirect/p07-redirect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p07-redirect/target/classes/app/AppRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/p07-redirect/target/classes/app/AppRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p08-aop/p08-aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p08-aop/p08-aop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p08-aop/target/classes/app/AppRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/p08-aop/target/classes/app/AppRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p08-aop/target/classes/app/aop/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/p08-aop/target/classes/app/aop/LogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/p09-jwt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/p09-jwt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/config/FilterConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/config/FilterConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/config/po/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/config/po/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/config/po/AuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/config/po/AuthInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/key/RedisCacheKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/key/RedisCacheKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/param/LoginParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/param/LoginParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/property/SwaggerProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/property/SwaggerProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/response/ResponseInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/response/ResponseInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/vo/LoginVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/vo/LoginVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/vo/UserInfoVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/model/vo/UserInfoVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/service/LoginService.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/service/LoginService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/service/impl/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/utils/RedisUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/utils/RedisUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p09-jwt/target/classes/app/utils/TokenUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/p09-jwt/target/classes/app/utils/TokenUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.MD" beforeDir="false" afterPath="$PROJECT_DIR$/readme.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +139,11 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.14084506" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.32984293" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="ReactorSettings">
@@ -83,7 +154,69 @@
       <recent name="D:\work\springboot-tutorial\p02-websocket\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.Docker Image">
+    <configuration name="AppRunner (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="p10-netty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRunner (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="p08-aop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRunner (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="p06-schedule" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRunner (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="p07-redirect" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRunner (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="p03-kafka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRunner (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="p01-hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRunner (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="p04-i18n" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRunner (8)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="p05-filter-interceptor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="p02-websocket" />
       <extension name="coverage">
@@ -97,8 +230,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="p09-jwt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DockerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="p11-docker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.DockerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="DockerTx">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="p11-docker:1.0-SNAPSHOT" />
+          <option name="containerName" value="idea2Docker" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9000" />
+                <option name="hostPort" value="9000" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AppRunner" />
+      <item itemvalue="Spring Boot.AppRunner (1)" />
+      <item itemvalue="Spring Boot.DockerApp" />
+      <item itemvalue="Spring Boot.AppRunner (2)" />
+      <item itemvalue="Spring Boot.AppRunner (3)" />
+      <item itemvalue="Spring Boot.AppRunner (4)" />
+      <item itemvalue="Spring Boot.AppRunner (5)" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.AppRunner (6)" />
+      <item itemvalue="Spring Boot.AppRunner (7)" />
+      <item itemvalue="Spring Boot.AppRunner (8)" />
+      <item itemvalue="Docker.Docker Image" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Spring Boot.DockerApp" />
+        <item itemvalue="Spring Boot.AppRunner (1)" />
         <item itemvalue="Spring Boot.AppRunner" />
       </list>
     </recent_temporary>
@@ -117,7 +304,10 @@
       <workItem from="1635483023981" duration="3174000" />
       <workItem from="1635495481015" duration="614000" />
       <workItem from="1636336583084" duration="4206000" />
-      <workItem from="1636350464762" duration="3360000" />
+      <workItem from="1636350464762" duration="4474000" />
+      <workItem from="1636366239792" duration="2367000" />
+      <workItem from="1636445523270" duration="1243000" />
+      <workItem from="1636684694666" duration="6581000" />
     </task>
     <task id="LOCAL-00001" summary="add-websocket">
       <created>1632300729464</created>
@@ -196,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636340825712</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="websocket 同源检测">
+      <created>1636355804719</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1636355804719</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +452,8 @@
     <MESSAGE value="[add] p-09 jwt" />
     <MESSAGE value="p-09 更新" />
     <MESSAGE value="更新 websocket" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 websocket" />
+    <MESSAGE value="websocket 同源检测" />
+    <option name="LAST_COMMIT_MESSAGE" value="websocket 同源检测" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -267,5 +465,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

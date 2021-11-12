@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/p07-redirect/p07-redirect.iml" filepath="$PROJECT_DIR$/p07-redirect/p07-redirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/p08-aop/p08-aop.iml" filepath="$PROJECT_DIR$/p08-aop/p08-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/p09-jwt/p09-jwt.iml" filepath="$PROJECT_DIR$/p09-jwt/p09-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p10-netty/p10-netty.iml" filepath="$PROJECT_DIR$/p10-netty/p10-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p11-docker/p11-docker.iml" filepath="$PROJECT_DIR$/p11-docker/p11-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-tutorial.iml" filepath="$PROJECT_DIR$/springboot-tutorial.iml" />
     </modules>
   </component>
