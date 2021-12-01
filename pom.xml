@@ -26,6 +26,7 @@
         <module>p09-jwt</module>
         <module>p10-netty</module>
         <module>p11-docker</module>
+        <module>p12-poi</module>
     </modules>
     <packaging>pom</packaging>
 

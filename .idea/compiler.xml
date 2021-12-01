@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="p08-aop" />
         <module name="p05-filter-interceptor" />
+        <module name="p12-poi" />
         <module name="p11-docker" />
         <module name="p04-i18n" />
         <module name="p07-redirect" />
@@ -32,6 +33,7 @@
       <module name="p09-jwt" target="8" />
       <module name="p10-netty" target="8" />
       <module name="p11-docker" target="8" />
+      <module name="p12-poi" target="8" />
       <module name="springboot-tutorial" target="8" />
     </bytecodeTargetLevel>
   </component>
@@ -48,6 +50,7 @@
       <module name="p09-jwt" options="-parameters" />
       <module name="p10-netty" options="-parameters" />
       <module name="p11-docker" options="-parameters" />
+      <module name="p12-poi" options="-parameters" />
     </option>
   </component>
 </project>
