@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 /**
@@ -33,11 +32,6 @@ public class TestController {
         ));
         data.setRows(peopleList());
 
-        //生成本地
-        /*File f = new File("c:/test.xlsx");
-        FileOutputStream out = new FileOutputStream(f);
-        ExportExcelUtils.exportExcel(data, out);
-        out.close();*/
         ExcelExportUtil.exportExcel(response,"excel.xlsx",data);
     }
 
