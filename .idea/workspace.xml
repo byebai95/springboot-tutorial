@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="fix poi 过期方法">
+    <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p13-email/p13-email.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p13-email/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p13-email/src/main/java/app/EmailApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p13-email/src/main/java/app/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p13-email/src/main/java/app/manager/EmailManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p13-email/src/main/java/app/model/ToEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p13-email/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p12-poi/src/main/java/app/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/p12-poi/src/main/java/app/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p12-poi/src/main/java/app/utils/ExcelExportUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/p12-poi/src/main/java/app/utils/ExcelExportUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +47,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../repository/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16-sources.jar!/org/apache/poi/xssf/usermodel/XSSFCellStyle.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -45,12 +60,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1yUAPwV7hA50DKUh4jrslV6eAM9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -82,7 +100,7 @@
       <recent name="D:\work\springboot-tutorial\p02-websocket\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.PoiApplication">
+  <component name="RunManager" selected="Spring Boot.EmailApplication">
     <configuration name="AppRunner (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="p10-netty" />
       <extension name="coverage">
@@ -145,14 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="AppRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="p02-websocket" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,6 +186,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="app.DockerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="p13-email" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.EmailApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,18 +243,19 @@
       <item itemvalue="Spring Boot.AppRunner (6)" />
       <item itemvalue="Spring Boot.AppRunner (7)" />
       <item itemvalue="Spring Boot.AppRunner (8)" />
-      <item itemvalue="Spring Boot.AppRunner" />
       <item itemvalue="Spring Boot.AppRunner (1)" />
       <item itemvalue="Spring Boot.DockerApp" />
       <item itemvalue="Spring Boot.PoiApplication" />
+      <item itemvalue="Spring Boot.EmailApplication" />
+      <item itemvalue="Spring Boot.AppRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EmailApplication" />
         <item itemvalue="Spring Boot.PoiApplication" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Spring Boot.DockerApp" />
         <item itemvalue="Spring Boot.AppRunner (1)" />
-        <item itemvalue="Spring Boot.AppRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +278,8 @@
       <workItem from="1636445523270" duration="1243000" />
       <workItem from="1636684694666" duration="6796000" />
       <workItem from="1637053069855" duration="617000" />
-      <workItem from="1638349291566" duration="3364000" />
+      <workItem from="1638349291566" duration="4311000" />
+      <workItem from="1638425564312" duration="5791000" />
     </task>
     <task id="LOCAL-00001" summary="add-websocket">
       <created>1632300729464</created>
@@ -359,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638352349061</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1638352701940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1638352701940</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,6 +442,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add-websocket" />
     <MESSAGE value="[add] kafka" />
     <MESSAGE value="[add] i18n" />
@@ -423,7 +458,8 @@
     <MESSAGE value="spring boot poi导出数据" />
     <MESSAGE value="poi 模拟数据" />
     <MESSAGE value="fix poi 过期方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix poi 过期方法" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

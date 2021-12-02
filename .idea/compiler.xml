@@ -12,13 +12,14 @@
         <module name="p12-poi" />
         <module name="p11-docker" />
         <module name="p04-i18n" />
-        <module name="p07-redirect" />
         <module name="p09-jwt" />
-        <module name="p10-netty" />
         <module name="p02-websocket" />
-        <module name="p01-hello" />
         <module name="p06-schedule" />
         <module name="p03-kafka" />
+        <module name="p13-email" />
+        <module name="p07-redirect" />
+        <module name="p10-netty" />
+        <module name="p01-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="p10-netty" target="8" />
       <module name="p11-docker" target="8" />
       <module name="p12-poi" target="8" />
+      <module name="p13-email" target="8" />
       <module name="springboot-tutorial" target="8" />
     </bytecodeTargetLevel>
   </component>
@@ -51,6 +53,7 @@
       <module name="p10-netty" options="-parameters" />
       <module name="p11-docker" options="-parameters" />
       <module name="p12-poi" options="-parameters" />
+      <module name="p13-email" options="-parameters" />
     </option>
   </component>
 </project>
