@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/p11-docker/p11-docker.iml" filepath="$PROJECT_DIR$/p11-docker/p11-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/p12-poi/p12-poi.iml" filepath="$PROJECT_DIR$/p12-poi/p12-poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/p13-email/p13-email.iml" filepath="$PROJECT_DIR$/p13-email/p13-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p14-quartz/p14-quartz.iml" filepath="$PROJECT_DIR$/p14-quartz/p14-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-tutorial.iml" filepath="$PROJECT_DIR$/springboot-tutorial.iml" />
     </modules>
   </component>

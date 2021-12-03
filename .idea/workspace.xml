@@ -4,17 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p13-email/p13-email.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p13-email/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p13-email/src/main/java/app/EmailApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p13-email/src/main/java/app/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p13-email/src/main/java/app/manager/EmailManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p13-email/src/main/java/app/model/ToEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p13-email/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="email 多种格式">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java7_2_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p14-quartz/p14-quartz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p14-quartz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/QuartzApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/config/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -100,15 +110,9 @@
       <recent name="D:\work\springboot-tutorial\p02-websocket\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.EmailApplication">
-    <configuration name="AppRunner (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.QuartzApplication">
+    <configuration name="AppRunner (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="p10-netty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,6 +220,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="p14-quartz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.QuartzApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="DockerTx">
       <deployment type="docker-image">
         <settings>
@@ -243,19 +260,20 @@
       <item itemvalue="Spring Boot.AppRunner (6)" />
       <item itemvalue="Spring Boot.AppRunner (7)" />
       <item itemvalue="Spring Boot.AppRunner (8)" />
-      <item itemvalue="Spring Boot.AppRunner (1)" />
+      <item itemvalue="Spring Boot.AppRunner" />
       <item itemvalue="Spring Boot.DockerApp" />
       <item itemvalue="Spring Boot.PoiApplication" />
       <item itemvalue="Spring Boot.EmailApplication" />
-      <item itemvalue="Spring Boot.AppRunner" />
+      <item itemvalue="Spring Boot.QuartzApplication" />
+      <item itemvalue="Spring Boot.AppRunner (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.QuartzApplication" />
         <item itemvalue="Spring Boot.EmailApplication" />
         <item itemvalue="Spring Boot.PoiApplication" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Spring Boot.DockerApp" />
-        <item itemvalue="Spring Boot.AppRunner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +297,8 @@
       <workItem from="1636684694666" duration="6796000" />
       <workItem from="1637053069855" duration="617000" />
       <workItem from="1638349291566" duration="4311000" />
-      <workItem from="1638425564312" duration="5791000" />
+      <workItem from="1638425564312" duration="6684000" />
+      <workItem from="1638517120071" duration="4790000" />
     </task>
     <task id="LOCAL-00001" summary="add-websocket">
       <created>1632300729464</created>
@@ -393,7 +412,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638352701940</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="email 多种格式">
+      <created>1638435560986</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1638435560986</updated>
+    </task>
+    <task id="LOCAL-00018" summary="email 多种格式">
+      <created>1638435580044</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1638435580044</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +492,8 @@
     <MESSAGE value="poi 模拟数据" />
     <MESSAGE value="fix poi 过期方法" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="email 多种格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="email 多种格式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

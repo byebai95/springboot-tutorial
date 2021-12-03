@@ -28,6 +28,7 @@
         <module>p11-docker</module>
         <module>p12-poi</module>
         <module>p13-email</module>
+        <module>p14-quartz</module>
     </modules>
     <packaging>pom</packaging>
 
