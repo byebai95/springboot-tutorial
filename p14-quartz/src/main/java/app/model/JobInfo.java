@@ -17,6 +17,8 @@ public class JobInfo implements Serializable {
 
     private String jobName;
 
+    private String clazz;
+
     private String cronExpression;
 
     private Map<String,Object> params;

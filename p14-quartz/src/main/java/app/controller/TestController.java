@@ -6,6 +6,7 @@ import app.model.Emp;
 import app.model.JobInfo;
 import app.utils.SchedulerUtil;
 import lombok.AllArgsConstructor;
+import org.quartz.Job;
 import org.quartz.SchedulerException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -27,11 +28,12 @@ public class TestController {
     private final EmpMapper empMapper;
 
     @PostMapping("/createJob")
-    public String createJob(@RequestBody JobInfo jobInfo) throws SchedulerException {
+    public String createJob(@RequestBody JobInfo jobInfo) throws Exception{
+        Class clazz = Class.forName(jobInfo.getClazz());
         schedulerUtil.createJob(
                 jobInfo.getJobGroup(),
                 jobInfo.getJobName(),
-                DemoJob.class,
+                clazz,
                 jobInfo.getCronExpression(),
                 jobInfo.getParams());
         return "创建定时任务成功";

@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="完成定时任务 quartz 测试">
-      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/mapper/EmpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/model/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/resources/mapper/EmpMapper.xml" afterDir="false" />
+    <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="分库测试成功">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/p14-quartz/src/main/java/app/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p14-quartz/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/p14-quartz/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p14-quartz/src/main/java/app/model/JobInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/model/JobInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +278,7 @@
       <workItem from="1638349291566" duration="4311000" />
       <workItem from="1638425564312" duration="6684000" />
       <workItem from="1638517120071" duration="7421000" />
-      <workItem from="1638754174509" duration="5566000" />
+      <workItem from="1638754174509" duration="6125000" />
     </task>
     <task id="LOCAL-00001" summary="add-websocket">
       <created>1632300729464</created>
@@ -430,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638759434201</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="分库测试成功">
+      <created>1638759820417</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1638759820417</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +504,8 @@
     <MESSAGE value="add quartz" />
     <MESSAGE value="quartz update" />
     <MESSAGE value="完成定时任务 quartz 测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成定时任务 quartz 测试" />
+    <MESSAGE value="分库测试成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="分库测试成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
