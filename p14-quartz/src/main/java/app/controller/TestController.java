@@ -63,6 +63,12 @@ public class TestController {
         return isExist ? "任务已存在":"任务不存在";
     }
 
+    @PostMapping("/updateJob")
+    public String updateJob(@RequestBody JobInfo jobInfo) throws SchedulerException{
+        schedulerUtil.updateJob(jobInfo.getJobGroup(),jobInfo.getJobName(),jobInfo.getCronExpression());
+        return "更新定时任务成功";
+    }
+
     /**
      * 分库查询测试
      * @return

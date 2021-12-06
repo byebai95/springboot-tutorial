@@ -107,6 +107,28 @@ public class SchedulerUtil {
     }
 
 
+    public void updateJob(String jobGroup,String jobName,String cronExpression) throws SchedulerException{
+        JobKey jobKey =JobKey.jobKey(jobName,jobGroup);
+        if(!scheduler.checkExists(jobKey)){
+            throw new SchedulerException(String.format("JobGroup:%s ,JobName:%s 不存在",jobGroup,jobName));
+        }
+        //调度器构建
+        CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule(cronExpression);
+        TriggerKey triggerKey = TriggerKey.triggerKey(jobName,jobGroup);
+        CronTrigger trigger = (CronTrigger)scheduler.getTrigger(triggerKey);
+        if(trigger != null){
+            //新的 cron 重新构建 trigger
+            trigger = trigger.getTriggerBuilder().withIdentity(triggerKey).withSchedule(scheduleBuilder).build();
+            Trigger.TriggerState triggerState = scheduler.getTriggerState(trigger.getKey());
+            //TODO 忽略暂停的任务
+            if(!triggerState.name().equals("PAUSED")){
+                Date date = scheduler.rescheduleJob(triggerKey,trigger);
+                log.info("更新定时任务成功");
+            }
+
+        }
+    }
+
 
 }
 
