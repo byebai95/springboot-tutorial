@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd45ef81-3f7e-4e74-b79a-2f25e61f5216" name="Changes" comment="quartz update">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/job/DemoJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/model/JobInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/service/JobService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/service/impl/JobServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/utils/SchedulerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/config/SchedulerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/utils/CronUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p14-quartz/src/main/java/app/QuartzApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/QuartzApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p14-quartz/src/main/java/app/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/config/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p14-quartz/src/main/java/app/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p14-quartz/src/main/java/app/job/DemoJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/job/DemoJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p14-quartz/src/main/java/app/model/JobInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/model/JobInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p14-quartz/src/main/java/app/utils/SchedulerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/p14-quartz/src/main/java/app/utils/SchedulerUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/p02-websocket/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -94,7 +93,20 @@
       <recent name="D:\work\springboot-tutorial\p02-websocket\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.QuartzApplication">
+  <component name="RunManager" selected="Application.CronUtil">
+    <configuration name="CronUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.utils.CronUtil" />
+      <module name="p14-quartz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppRunner (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="p10-netty" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="app.AppRunner" />
@@ -161,19 +173,6 @@
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="p09-jwt" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="app.Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DockerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="p11-docker" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="app.DockerApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -245,19 +244,19 @@
       <item itemvalue="Spring Boot.AppRunner (7)" />
       <item itemvalue="Spring Boot.AppRunner (8)" />
       <item itemvalue="Spring Boot.AppRunner" />
-      <item itemvalue="Spring Boot.DockerApp" />
+      <item itemvalue="Spring Boot.AppRunner (1)" />
       <item itemvalue="Spring Boot.PoiApplication" />
       <item itemvalue="Spring Boot.EmailApplication" />
       <item itemvalue="Spring Boot.QuartzApplication" />
-      <item itemvalue="Spring Boot.AppRunner (1)" />
+      <item itemvalue="Application.CronUtil" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CronUtil" />
         <item itemvalue="Spring Boot.QuartzApplication" />
         <item itemvalue="Spring Boot.EmailApplication" />
         <item itemvalue="Spring Boot.PoiApplication" />
         <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Spring Boot.DockerApp" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +281,8 @@
       <workItem from="1637053069855" duration="617000" />
       <workItem from="1638349291566" duration="4311000" />
       <workItem from="1638425564312" duration="6684000" />
-      <workItem from="1638517120071" duration="6646000" />
+      <workItem from="1638517120071" duration="7421000" />
+      <workItem from="1638754174509" duration="5067000" />
     </task>
     <task id="LOCAL-00001" summary="add-websocket">
       <created>1632300729464</created>
@@ -417,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638521962263</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="quartz update">
+      <created>1638524707882</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1638524707882</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

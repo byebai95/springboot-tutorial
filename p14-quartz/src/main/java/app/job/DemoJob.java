@@ -3,7 +3,6 @@ package app.job;
 import lombok.extern.slf4j.Slf4j;
 import org.quartz.JobDetail;
 import org.quartz.JobExecutionContext;
-import org.quartz.JobExecutionException;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
 /**
@@ -13,7 +12,7 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
 @Slf4j
 public class DemoJob extends QuartzJobBean {
     @Override
-    protected void executeInternal(JobExecutionContext jobExecutionContext) throws JobExecutionException {
+    protected void executeInternal(JobExecutionContext jobExecutionContext) {
         JobDetail jobDetail = jobExecutionContext.getJobDetail();
         log.info("执行定时任务");
     }
