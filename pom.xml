@@ -29,6 +29,7 @@
         <module>p12-poi</module>
         <module>p13-email</module>
         <module>p14-quartz</module>
+        <module>p15-dom</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -16,6 +16,7 @@
         <module name="p02-websocket" />
         <module name="p06-schedule" />
         <module name="p03-kafka" />
+        <module name="p15-dom" />
         <module name="p13-email" />
         <module name="p07-redirect" />
         <module name="p14-quartz" />
@@ -38,6 +39,7 @@
       <module name="p12-poi" target="8" />
       <module name="p13-email" target="8" />
       <module name="p14-quartz" target="8" />
+      <module name="p15-dom" target="8" />
       <module name="springboot-tutorial" target="8" />
     </bytecodeTargetLevel>
   </component>
@@ -57,6 +59,7 @@
       <module name="p12-poi" options="-parameters" />
       <module name="p13-email" options="-parameters" />
       <module name="p14-quartz" options="-parameters" />
+      <module name="p15-dom" options="-parameters" />
     </option>
   </component>
 </project>
