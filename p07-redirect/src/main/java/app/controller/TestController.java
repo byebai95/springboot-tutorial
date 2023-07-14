@@ -8,7 +8,7 @@ import org.springframework.web.servlet.view.RedirectView;
 @RestController
 public class TestController {
 
-    @GetMapping("/index")
+    @GetMapping
     public ModelAndView index(){
         return new ModelAndView(new RedirectView("https://www.baidu.com"));
     }

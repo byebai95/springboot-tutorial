@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.*;
  */
 
 @AllArgsConstructor
-@RequestMapping(value = "/login")
 @RestController
 public class LoginController {
 

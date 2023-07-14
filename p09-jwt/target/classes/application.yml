@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: 8080
 
 swagger:
   title: "JWT Token 验证项目"
