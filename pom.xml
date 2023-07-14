@@ -30,6 +30,7 @@
         <module>p13-email</module>
         <module>p14-quartz</module>
         <module>p15-dom</module>
+        <module>p16-mapstruct</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -37,14 +38,5 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
