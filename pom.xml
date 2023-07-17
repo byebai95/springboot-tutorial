@@ -31,6 +31,7 @@
         <module>p14-quartz</module>
         <module>p15-dom</module>
         <module>p16-mapstruct</module>
+        <module>p17-xxl-job</module>
     </modules>
     <packaging>pom</packaging>
 
