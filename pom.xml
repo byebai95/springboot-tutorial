@@ -32,6 +32,7 @@
         <module>p15-dom</module>
         <module>p16-mapstruct</module>
         <module>p17-xxl-job</module>
+        <module>p18-drools</module>
     </modules>
     <packaging>pom</packaging>
 
