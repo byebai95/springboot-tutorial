@@ -33,6 +33,9 @@
         <module>p16-mapstruct</module>
         <module>p17-xxl-job</module>
         <module>p18-drools</module>
+        <module>p19-mybatis</module>
+        <module>p20-mybatis-generator</module>
+        <module>p21-swagger</module>
     </modules>
     <packaging>pom</packaging>
 
