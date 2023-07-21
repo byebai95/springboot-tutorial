@@ -36,6 +36,7 @@
         <module>p19-mybatis</module>
         <module>p20-mybatis-generator</module>
         <module>p21-swagger</module>
+        <module>p22-flyway</module>
     </modules>
     <packaging>pom</packaging>
 

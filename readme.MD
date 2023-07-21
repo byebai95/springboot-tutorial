@@ -18,3 +18,8 @@ admin/123456
 ```shell
 https://houbb.github.io/2020/05/26/rule-engine-01-drools
 ```
+
++ swagger3.0
+```shell
+http://localhost:8080/swagger-ui.html
+```
