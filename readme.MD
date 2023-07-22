@@ -21,7 +21,11 @@ https://houbb.github.io/2020/05/26/rule-engine-01-drools
 
 + swagger3.0
 ```shell
+# 启动服务访问地址
 http://localhost:8080/swagger-ui.html
+
+# swagger3.0 使用文档
+https://juejin.cn/post/7128303076934418446
 ```
 
 + flyway 配置

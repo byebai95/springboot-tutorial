@@ -5,11 +5,11 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@Tag(name = "user")
+@Tag(name = "user-tag")
 @RestController
-public class TestController {
+public class UserController {
 
-    @Operation(summary = "添加文章", description = "添加新的文章", tags = "Article",method = "POST")
+    @Operation(summary = "添加文章", description = "添加新的文章", tags = "Article",method = "get")
     @GetMapping("/users")
     public String getUserInfo(){
         return "success";
