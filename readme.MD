@@ -56,3 +56,5 @@ flyway.url迁移时使用的JDBC URL，如果没有指定的话，将使用配�
 flyway.user迁移数据库的用户名
 flyway.validate-on-migrate迁移时是否校验，默认为true
 ```
++ mybatis 报错
+  ![图标](./image/m.jpg)
