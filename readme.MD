@@ -58,3 +58,14 @@ flyway.validate-on-migrate迁移时是否校验，默认为true
 ```
 + mybatis 报错  
 ![图标](https://github.com/byebai95/springboot-tutorial/blob/master/image/mybatis_error.png)
+
++ 工具类 hutool
+```shell
+文档 https://gitee.com/dromara/hutool
+
+<dependency>
+    <groupId>cn.hutool</groupId>
+    <artifactId>hutool-all</artifactId>
+    <version>5.8.20</version>
+</dependency>
+```
