@@ -57,7 +57,10 @@ flyway.user迁移数据库的用户名
 flyway.validate-on-migrate迁移时是否校验，默认为true
 ```
 + mybatis 报错  
-![图标](https://github.com/byebai95/springboot-tutorial/blob/master/image/mybatis_error.png)
+![图标](https://github.com/byebai95/springboot-tutorial/blob/master/image/mybatis_error.png)  
+![图标](https://github.com/byebai95/springboot-tutorial/blob/master/image/error_1.png)  
+![图标](https://github.com/byebai95/springboot-tutorial/blob/master/image/error_2.png)  
+
 
 + 工具类 hutool
 ```shell
