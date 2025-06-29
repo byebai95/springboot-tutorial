@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Spring Boot App",
+            "request": "launch",
+            "mainClass": "app.HelloWorldApp",
+            "projectName": "p01-hello",
+            "args": "",
+            "env": {
+                "SPRING_PROFILES_ACTIVE": "dev"
+            },
+            "vmArgs": "-Dfile.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Debug Current File",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "projectName": "${workspaceFolderBasename}"
+        },
+        {
+            "type": "java",
+            "name": "Attach to Process",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 5005
+        }
+    ]
+} 

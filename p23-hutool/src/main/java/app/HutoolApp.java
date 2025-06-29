@@ -8,4 +8,8 @@ public class HutoolApp {
     public static void main(String[] args) {
         SpringApplication.run(HutoolApp.class, args);
     }
+
+    public void test() {
+        System.out.println("Hello, Hutool!");
+    }
 }

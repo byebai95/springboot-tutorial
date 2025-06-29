@@ -27,16 +27,29 @@
 
     </dependencies>
 
-
     <build>
         <plugins>
-            <!--  docker 插件  -->
+            <!-- Spring Boot Maven Plugin -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.1.4.RELEASE</version>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+
+            <!-- Docker Maven Plugin -->
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>1.0.0</version>
+                <version>1.2.2</version>
 
-                <!--  绑定 docker:build 到 maven 的 package 生命周期  -->
                 <executions>
                     <execution>
                         <id>docker-build-image</id>
@@ -47,19 +60,11 @@
                     </execution>
                 </executions>
 
-                <!--  插件的配置  -->
                 <configuration>
-                    <!--  构建的镜像的名字 ：标签  -->
                     <imageName>${project.artifactId}:${project.version}</imageName>
-                    <!--  存放dockerfile的路径  -->
                     <dockerDirectory>${project.basedir}</dockerDirectory>
-                    <!--  docker Host 地址，用插件在 initialize 阶段从 application.yml 解析  -->
-                    <dockerHost>http://81.68.206.246:2375</dockerHost>
-                    <!--  SSL 认证证书地址，若开启 SSL 登录  -->
-                    <!--  <dockerCertPath></dockerCertPath>  -->
                     <resources>
                         <resource>
-                            <!--  使用什么资源来构建镜像（就是jar包），以及将镜像推送到容器的那个目录下  -->
                             <targetPath>/</targetPath>
                             <directory>${project.build.directory}</directory>
                             <include>${project.build.finalName}.jar</include>
@@ -70,6 +75,5 @@
 
         </plugins>
     </build>
-
 
 </project>

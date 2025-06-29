@@ -1,14 +1,15 @@
 package app.model.vo;
 
-import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
-@Schema(title = "角色响应对象")
+@ApiModel("角色响应对象")
 public class RoleVO {
 
-    @Schema(title = "记录数量")
+    @ApiModelProperty("记录数量")
     private Long count;
 
-    @Schema(title = "记录")
+    @ApiModelProperty("记录")
     private String data;
 
     public Long getCount() {

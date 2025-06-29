@@ -1,0 +1,6 @@
+app\config\SwaggerConfig.class
+app\manager\LangLocaleResolver.class
+app\I18nApp.class
+app\config\LocaleConfig.class
+app\util\MessageUtils.class
+app\controller\TestController.class

@@ -1,0 +1,6 @@
+app\FilterApp.class
+app\manager\ParamFilter.class
+app\controller\TestController.class
+app\manager\ParamInterceptor.class
+app\config\InterceptorConfig.class
+app\config\FilterConfig.class

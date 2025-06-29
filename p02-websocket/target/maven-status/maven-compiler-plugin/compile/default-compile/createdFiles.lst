@@ -1,0 +1,7 @@
+app\websocket\config\CustomConfigurator.class
+app\WebSocketApp.class
+app\controller\TestController.class
+app\websocket\config\ServerEncoder.class
+app\websocket\server\WebServerEndpoint.class
+app\websocket\config\WebSocketConfig.class
+app\websocket\model\MessageVO.class

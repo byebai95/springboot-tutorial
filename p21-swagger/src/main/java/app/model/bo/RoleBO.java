@@ -1,11 +1,12 @@
 package app.model.bo;
 
-import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
-@Schema(title = "角色业务实体")
+@ApiModel("角色业务实体")
 public class RoleBO {
 
-    @Schema(title = "角色ID")
+    @ApiModelProperty("角色ID")
     private Long id;
 
     public Long getId() {

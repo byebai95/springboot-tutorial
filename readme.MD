@@ -1,4 +1,56 @@
-## springboot 集成
+# SpringBoot 教程项目
+
+本项目为 SpringBoot 综合示例，涵盖了常用的企业级开发集成方案。每个子模块独立演示一种技术或集成方式，适合学习和参考。
+
+## 目录结构
+
+- p01-hello：SpringBoot 入门示例
+- p02-websocket：WebSocket 实时通信
+- p03-kafka：Kafka 消息队列集成
+- p04-i18n：国际化配置
+- p05-filter-interceptor：过滤器与拦截器
+- p06-schedule：定时任务
+- p07-redirect：重定向处理
+- p08-aop：AOP 面向切面编程
+- p09-jwt：JWT 鉴权
+- p10-netty：Netty 网络通信
+- p11-docker：Docker 容器化
+- p12-poi：POI Excel 导入导出
+- p13-email：邮件发送
+- p14-quartz：Quartz 定时任务
+- p15-dom：DOM 操作
+- p16-mapstruct：MapStruct 对象映射
+- p17-xxl-job：XXL-Job 分布式任务调度
+- p18-drools：Drools 规则引擎
+- p19-mybatis：MyBatis 持久层
+- p20-mybatis-generator：MyBatis 代码生成
+- p21-swagger：Swagger3.0 接口文档
+- p22-flyway：Flyway 数据库迁移
+- p23-hutool：Hutool 工具类
+
+## 环境要求
+
+- JDK 1.8 及以上
+- Maven 3.5 及以上
+- MySQL 5.7/8.0（部分模块需要）
+
+## 快速开始
+
+1. 克隆项目：
+   ```shell
+   git clone https://github.com/yourname/springboot-tutorial.git
+   cd springboot-tutorial
+   ```
+2. 进入对应模块，修改 `application.yml` 配置数据库等信息。
+3. 编译并运行：
+   ```shell
+   mvn clean package
+   java -jar p01-hello/target/*.jar
+   ```
+4. 访问对应服务端口。
+
+## 常见集成说明
+
 + xxl 定义任务
 ```shell
 # 官方文档 

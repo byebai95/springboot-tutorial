@@ -1,36 +1,36 @@
 package app.config;
 
-import io.swagger.v3.oas.annotations.OpenAPIDefinition;
-import io.swagger.v3.oas.annotations.info.Info;
-import org.springdoc.core.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import springfox.documentation.builders.ApiInfoBuilder;
+import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
+import springfox.documentation.spi.DocumentationType;
+import springfox.documentation.spring.web.plugins.Docket;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
-@OpenAPIDefinition(info =
-@Info(title = "Swagger3.0构建API文档", version = "1.0", description = "Swagger3.0构建API文档 v1.0"))
+@EnableSwagger2
 public class SwaggerConfig {
+    
     @Bean
-    public GroupedOpenApi restApi() {
-        return GroupedOpenApi.builder()
-                .group("rest-api")
-                .pathsToMatch("/rest/**")
+    public Docket createRestApi() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .apiInfo(apiInfo())
+                .select()
+                .apis(RequestHandlerSelectors.basePackage("app.controller"))
+                .paths(PathSelectors.any())
                 .build();
     }
 
-    @Bean
-    public GroupedOpenApi helloApi() {
-        return GroupedOpenApi.builder()
-                .group("hello")
-                .pathsToMatch("/hello/**")
-                .build();
-    }
-
-    @Bean
-    public GroupedOpenApi allApi() {
-        return GroupedOpenApi.builder()
-                .group("all")
-                .pathsToMatch("/**")
+    private ApiInfo apiInfo() {
+        return new ApiInfoBuilder()
+                .title("Swagger2.0构建API文档")
+                .description("Swagger2.0构建API文档 v1.0")
+                .version("1.0")
+                .contact(new Contact("开发团队", "", ""))
                 .build();
     }
 }

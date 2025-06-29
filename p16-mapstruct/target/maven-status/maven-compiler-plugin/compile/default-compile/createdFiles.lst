@@ -1,0 +1,6 @@
+app\mapstruct\UserMapper.class
+app\model\User.class
+app\MapStructApp.class
+app\mapstruct\UserMapperImpl.class
+app\controller\TestController.class
+app\VO\UserVO.class
