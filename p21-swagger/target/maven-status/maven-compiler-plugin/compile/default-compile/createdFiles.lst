@@ -1,6 +1,0 @@
-app\config\SwaggerConfig.class
-app\controller\RoleController.class
-app\model\bo\RoleBO.class
-app\SwaggerApp.class
-app\controller\UserController.class
-app\model\vo\RoleVO.class

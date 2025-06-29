@@ -1,5 +1,0 @@
-app\config\SwaggerConfig.class
-app\controller\TestController.class
-app\kafka\KafkaConsumer.class
-app\kafka\KafkaProducer.class
-app\KafkaApp.class

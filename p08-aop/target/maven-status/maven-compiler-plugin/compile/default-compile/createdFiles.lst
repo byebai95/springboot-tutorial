@@ -1,4 +1,0 @@
-app\annotation\Log.class
-app\aop\LogAspect.class
-app\controller\TestController.class
-app\AnnotationApp.class
